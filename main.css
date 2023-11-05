@@ -37,12 +37,13 @@ a{
     margin-top: 2vw;
     width:50px;
     height:50px;
-    border-radius: 25vw;
+    border-radius: 25px;
     border: 2px solid #f05a24; 
     transition-duration: 0.8s;
     transition-property: transform;
     background-color: #fff;
     margin-bottom: 2vw;
+    text-align: center;
 }
 
 #btn_refresh:hover{
