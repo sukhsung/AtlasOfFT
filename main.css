@@ -44,7 +44,7 @@ a{
     background-color: #fff;
     margin-bottom: 2vw;
     text-align: center;
-    padding: none;
+    padding: 0;  
 }
 
 #btn_refresh:hover{
