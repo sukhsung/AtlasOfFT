@@ -1,0 +1,82 @@
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #151515;
+    color: #fff
+}
+
+#title {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 3vw;
+}
+
+#author{
+    margin-bottom: 3vw;;
+}
+
+.center{
+    text-align: center;
+}
+
+img {
+    border: 2px solid #f05a24;
+}
+
+.image{
+    width: 35vw;
+    border-radius: 2vw;
+}
+
+a{
+    color: #f05a24;
+}
+
+#btn_refresh {
+    font-size: xx-large;
+    margin-top: 2vw;
+    width:50px;
+    height:50px;
+    border-radius: 25vw;
+    border: 2px solid #f05a24; 
+    transition-duration: 0.8s;
+    transition-property: transform;
+    background-color: #fff;
+    margin-bottom: 2vw;
+}
+
+#btn_refresh:hover{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    background-color: #eee;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    /* padding: 10px; */
+    padding-left: 10vw;
+    flex: 1;
+  }
+  
+  .flex-item-right {
+    /* padding: 10px; */
+    padding-right: 10vw;
+    flex: 1;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+      padding-left:0;
+      padding-right:0;
+    }
+    .image{
+        width:75vw;
+    }
+  }
